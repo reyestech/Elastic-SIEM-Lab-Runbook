@@ -58,8 +58,8 @@ Elastic SIEM Tools Installation:  <br />
 
 <br /> 
 
-3. Configuration
-Elasticsearch Configuration <br />
+<h2>3. Configuration </h2>
+Elasticsearch Configuration <br /> 
 Configure Elasticsearch settings such as cluster name and node settings.
 
 <img src="https://i.imgur.com/27x8h0i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
