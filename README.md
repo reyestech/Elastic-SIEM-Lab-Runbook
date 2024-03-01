@@ -79,8 +79,6 @@ Configure Elasticsearch settings such as cluster name and node settings.
 
 <img src="https://i.imgur.com/27x8h0i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/vCa9f2J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
 Logstash Configuration <br /> 
 Configure Logstash pipelines to ingest, transform, and output data.
 
@@ -89,9 +87,7 @@ Configure Logstash pipelines to ingest, transform, and output data.
 Kibana Configuration <br />
 Configure Kibana settings such as server host and port.
 
-<img src="https://i.imgur.com/dghvxLI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/zKP3J9z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yPdrSXC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
@@ -157,6 +153,8 @@ Debug Logstash pipelines by printing output to the console.
 
 <img src="https://i.imgur.com/uHBH6oz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<img src="https://i.imgur.com/tct10Ca.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br /> 
 
 8. Advanced Commands
@@ -203,7 +201,10 @@ Compliance Frameworks <br />
 Ensure SIEM configurations comply with relevant industry regulations, standards, and frameworks such as PCI DSS, HIPAA, and GDPR. 
 
 Auditing and Monitoring <br />
-Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering.
+Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering. <br />
+
+<img src="https://i.imgur.com/DamnXBK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br />
 
@@ -236,7 +237,7 @@ Integrate SIEM with Intrusion Detection Systems (IDS) or Intrusion Prevention Sy
 Integration with Vulnerability Scanners <br />
 Integrate SIEM with vulnerability scanners to identify security weaknesses and prioritize remediation efforts. 
 
-<img src="https://i.imgur.com/qsr89sj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rN6qkjr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
@@ -276,7 +277,7 @@ Implement load balancing mechanisms to distribute incoming log data evenly acros
 
 <br /> 
 
-<h3>19. Disaster Recovery and Backup</h3>
+<h3>18. Disaster Recovery and Backup</h3>
     
 Backup and Restore  <br />
 Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
