@@ -1,15 +1,12 @@
+# Elastic Cloud SIEM
 <h1>Hector M. Reyes  | SOC Analysts </h1>
 </h1> Group 17: Script K™</h1>
 <h1> Elastic SIEM Lab - Linux Runbook </h1>
-
-
 
  ### [Fullstack Academy - Capstone Project](https://docs.google.com/document/d/1o0JI4UZWY9FN0mybGW9WmAfAkg7dS2Scoixib0YjzEM/edit)
 
 <h2>Description</h2>
 A client requested our security services after experiencing a company-wide security breach. However, we encountered a significant challenge since our teams were located across different locations in the US. To provide the best possible protection to our client's businesses, we operated across multiple time zones and promptly monitored the various systems. 
-<br />
-<br />
 To address this challenge, I created an Elastic SIEM Lab. This lab environment enables me to connect, monitor, test, and analyze various operating systems remotely across multiple network systems. By utilizing these tools, we can guarantee prompt and effective protection for our client's businesses.
 <br />
 
@@ -21,13 +18,21 @@ To address this challenge, I created an Elastic SIEM Lab. This lab environment e
 
 <h2>Environments Used </h2>
 
-- <b>Windows OS | Active Directory | PowerShell </b> (21H2)
-- <b>Kali Linux | Ubuntu Server | Port Forwarding </b> (21H2)
-- <b>Windows OS | Active Directory | PowerShell </b> (21H2)
+- <b>Windows OS | Active Directory | PowerShell </b> 
+- <b>Kali Linux | Ubuntu Server | Port Forwarding </b> 
+- <b>Windows OS | Active Directory | PowerShell </b>
 
-<h2>Runbook:</h2>
+<h2> Blue Team Solution: SIEM Implementation </h2>
+The Blue Team has implemented a Security Information and Event Management (SIEM) system to ensure the security of their network. The system collects logs from various sources, such as servers, endpoints, and network devices, and detects any unusual or suspicious activities through correlation and alerts. In case of any incident, SIEM automates the incident handling process. Additionally, SIEM integrates threat intelligence to provide real-time updates on known threats, which helps in early detection.
 
-<br />
+For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and prevents them from escalating. SIEM provides contextual insights by correlating logs, which helps in incident response and provides a better understanding of the situation. Moreover, the customizable rules of SIEM allow Blue Teams to tailor it according to their environment, making it more efficient and effective. Lastly, SIEM operates continuously, providing 24/7 monitoring, ensuring constant vigilance and quick response to any potential threat.
+
+1. Early Threat Detection: SIEM can help detect potential threats and suspicious activities early, allowing for timely intervention and prevention of further escalation.
+2. Insights: Crucial for understanding incidents. Correlating logs provides the necessary context for this understanding.
+3. Customizable Rules: Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
+4. Remote Monitoring: It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
+
+<h2>Runbook:</h2> <br />
 
 <img src="https://i.imgur.com/lcl7mD5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
@@ -198,7 +203,7 @@ Compliance Frameworks <br />
 Ensure SIEM configurations comply with relevant industry regulations, standards, and frameworks such as PCI DSS, HIPAA, and GDPR. 
 
 Auditing and Monitoring <br />
-Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering. 
+Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering.
 
 <br /> <br />
 
@@ -207,7 +212,7 @@ Implement auditing and monitoring mechanisms to track changes to SIEM configurat
 Training and Education <br />
 Invest in continuous training and education to stay updated on the latest SIEM technologies, best practices, and emerging threats. 
 
-<br />
+ <br /> <br />
 
 13. Troubleshooting
 
@@ -216,21 +221,17 @@ Troubleshoot Logstash configuration errors by examining Logstash logs for errors
 
 <img src="https://i.imgur.com/SvtlvgY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> 
-
 Elasticsearch Health Check <br />
 Check the health status of Elasticsearch to identify any issues. 
 
 <img src="https://i.imgur.com/LS9OG40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
-
+ <br /> <br />
+ 
 14. Integration with Other Tools
 
 Integration with IDS/IPS <br />
 Integrate SIEM with Intrusion Detection Systems (IDS) or Intrusion Prevention Systems (IPS) to correlate security events and alerts. 
-
-<br />
 
 Integration with Vulnerability Scanners <br />
 Integrate SIEM with vulnerability scanners to identify security weaknesses and prioritize remediation efforts. 
@@ -249,19 +250,19 @@ Leverage machine learning algorithms and threat intelligence feeds to enhance th
 
 <img src="https://i.imgur.com/wqkD1VY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+ <br /> <br />
 
 16. Automation
-    
+
 Automated Alerting <br />
 Configure automated alerting mechanisms in Kibana to notify security teams of potential security incidents or abnormal behavior. 
 
 Automated Remediation <br />
 Implement automated response actions to mitigate security incidents, such as blocking malicious IP addresses or quarantining compromised systems.
 
-<img src="https://i.imgur.com/XACVbU6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XACVbU6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
-<br /> <br />
+ <br /> <br />
 
 17. Scalability and High Availability
     
@@ -273,7 +274,7 @@ Implement load balancing mechanisms to distribute incoming log data evenly acros
 
 <img src="https://i.imgur.com/U8Q5Kzm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+ <br /> <br />
 
 19. Disaster Recovery and Backup
     
@@ -281,16 +282,14 @@ Backup and Restore  <br />
 Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
 
 Disaster Recovery Planning <br />
-Develop disaster recovery plans and procedures to minimize downtime and restore SIEM functionality during catastrophic events or security breaches. 
+Develop disaster recovery plans and procedures to minimize downtime and restore SIEM functionality during catastrophic events or security breaches. <br />
 
-<img src="https://i.imgur.com/XVirrRF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XVirrRF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
-<br /> <br />
-
-Conclusion <br /> <br />
-SIEM (Security Information and Event Management) is essential to an organization's cybersecurity infrastructure. It offers visibility into security events and enables proactive threat detection and response. To use SIEM effectively, organizations must follow best practices, maintain proper documentation, and stay updated on emerging threats. This approach can help them improve their security posture and mitigate cybersecurity risks.
-
-<br />
+ <br /> <br />
+ 
+Conclusion <br />
+In today's world, cybersecurity is of paramount importance to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events and allow us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up-to-date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
 
 <img src="https://i.imgur.com/uGTHzSU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
