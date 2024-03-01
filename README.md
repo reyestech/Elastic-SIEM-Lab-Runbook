@@ -42,12 +42,12 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 
 <br />
 
-1. Introduction to SIEM (Security Information and Event Management)
+</h3>1. Introduction to SIEM (Security Information and Event Management)</h3>
 
 Purpose <br />
 SIEM systems aggregate and analyze log data from various sources within an organization's network to identify and respond to security incidents effectively.
 
-<br /> <br />
+<br /> 
 
 2. Installation
 
@@ -70,7 +70,7 @@ Kibana is an open-source data visualization dashboard for Elasticsearch.
 
 <img src="https://i.imgur.com/QW3sA3y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 3. Configuration
 
@@ -93,7 +93,7 @@ Configure Kibana settings such as server host and port.
 
 <img src="https://i.imgur.com/zKP3J9z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 4. Starting Services
    
@@ -114,7 +114,7 @@ Start the Kibana service.
 
 <img src="https://i.imgur.com/2G34EAZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 5. Basic Usage
    
@@ -129,7 +129,7 @@ Define index patterns in Kibana to specify which indices to query.
 Explore Data  <br />
 Use the Discover tab in Kibana to explore and search through log data. 
 
-<br /> <br />
+<br /> 
 
 6. Beginner Commands
    
@@ -143,7 +143,7 @@ Index a document in Elasticsearch.
 
 <img src="https://i.imgur.com/Ecmv7cg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 7. Intermediate Commands
 
@@ -157,7 +157,7 @@ Debug Logstash pipelines by printing output to the console.
 
 <img src="https://i.imgur.com/uHBH6oz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 8. Advanced Commands
    
@@ -171,7 +171,7 @@ Install additional Logstash plugins for extended functionality.
 
 <img src="https://i.imgur.com/XZX71eq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 9. SOP (Standard Operating Procedures)
     
@@ -183,7 +183,7 @@ Establish SOPs for regular maintenance tasks such as index management, log rotat
 
 <img src="https://i.imgur.com/BLMEJR4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 10. Documentation and Reporting
     
@@ -195,7 +195,7 @@ Use Kibana dashboards and visualizations to generate reports on security inciden
 
 <img src="https://i.imgur.com/u08J4nF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 11. Compliance and Regulatory Considerations
 
@@ -205,14 +205,14 @@ Ensure SIEM configurations comply with relevant industry regulations, standards,
 Auditing and Monitoring <br />
 Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering.
 
-<br /> <br />
+<br />
 
 12. Continuous Learning
 
 Training and Education <br />
 Invest in continuous training and education to stay updated on the latest SIEM technologies, best practices, and emerging threats. 
 
- <br /> <br />
+ <br />
 
 13. Troubleshooting
 
@@ -226,7 +226,7 @@ Check the health status of Elasticsearch to identify any issues.
 
 <img src="https://i.imgur.com/LS9OG40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
- <br /> <br />
+<br /> 
  
 14. Integration with Other Tools
 
@@ -238,7 +238,7 @@ Integrate SIEM with vulnerability scanners to identify security weaknesses and p
 
 <img src="https://i.imgur.com/qsr89sj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> <br />
+<br /> 
 
 15. Advanced Techniques
 
@@ -250,7 +250,7 @@ Leverage machine learning algorithms and threat intelligence feeds to enhance th
 
 <img src="https://i.imgur.com/wqkD1VY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
- <br /> <br />
+<br /> 
 
 16. Automation
 
@@ -262,7 +262,7 @@ Implement automated response actions to mitigate security incidents, such as blo
 
 <img src="https://i.imgur.com/XACVbU6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
- <br /> <br />
+<br /> 
 
 17. Scalability and High Availability
     
@@ -274,9 +274,9 @@ Implement load balancing mechanisms to distribute incoming log data evenly acros
 
 <img src="https://i.imgur.com/U8Q5Kzm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
- <br /> <br />
+<br /> 
 
-19. Disaster Recovery and Backup
+<h3>19. Disaster Recovery and Backup</h3>
     
 Backup and Restore  <br />
 Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
@@ -286,7 +286,7 @@ Develop disaster recovery plans and procedures to minimize downtime and restore 
 
 <img src="https://i.imgur.com/XVirrRF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
- <br /> <br />
+<br /> 
 
 <h2> Conclusion </h2>
 In today's world, cybersecurity is of paramount importance to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events and allow us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up-to-date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
