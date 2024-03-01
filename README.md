@@ -287,8 +287,8 @@ Develop disaster recovery plans and procedures to minimize downtime and restore 
 <img src="https://i.imgur.com/XVirrRF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
  <br /> <br />
- 
-Conclusion <br />
+
+<h2> Conclusion </h2>
 In today's world, cybersecurity is of paramount importance to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events and allow us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up-to-date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
 
 <img src="https://i.imgur.com/uGTHzSU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
