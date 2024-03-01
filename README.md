@@ -1,7 +1,7 @@
 # Elastic Cloud SIEM
-<h1>Hector M. Reyes  | SOC Analysts </h1>
+<h1>Hector M. Reyes | SOC Analysts </h1>
 </h1> Group 17: Script K™</h1>
-<h1> Elastic SIEM Lab - Linux Runbook </h1>
+<h1> Elastic SIEM Lab - Kali Linux Runbook </h1>
 
  ### [Alternative Link | Google Docs | Elastic SIEM: Kali Linux Runbook](https://docs.google.com/document/d/e/2PACX-1vQrPl3AsSPuHLw-uOWLJY1jk-ouFJrAuV_iDuKoA5O-7ppBya0mYVZL_NEC6wx1_aDUZRUfIxDrndbY/pub)
 
@@ -11,7 +11,6 @@ To address this challenge, I created an Elastic SIEM Lab. This lab environment e
 <br />
 
 <h2>Tools Used</h2>
-
 - <b>Elastic Cloud | SIEM (Security Information and Event Management)</b> 
 - <b>Kibana | Logstash | ELK Stack</b>
 - <b>VMware | VirtualBox </b>
@@ -32,48 +31,34 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 3. Customizable Rules: Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
 4. Remote Monitoring: It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
 
-<h2>Runbook:</h2> <br />
-
-<img src="https://i.imgur.com/lcl7mD5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-
-<h3>Elastic SIEM: Kali Linux Runbook:<h3> <br/>
-
-<img src="https://i.imgur.com/aEr0n4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
 <br />
 
-</h3>1. Introduction to SIEM (Security Information and Event Management)</h3>
+<h2>Elastic SIEM: Kali Linux Runbook: </h2> 
+<img src="https://i.imgur.com/aEr0n4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<h2> 1. Introduction to SIEM (Security Information and Event Management)</h2>
 Purpose <br />
-SIEM systems aggregate and analyze log data from various sources within an organization's network to identify and respond to security incidents effectively.
+SIEM systems analyze log data from various sources to quickly detect and respond to security incidents. They use advanced analytics to identify anomalous activities and provide a centralized platform for monitoring and managing security events, giving security teams a holistic view of their organization's security posture.
+
+<img src="https://i.imgur.com/23mSmyx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 <br /> 
 
-2. Installation
+<h2> 2. Installation </h2>
+Elastic SIEM Tools Installation:  <br />
+- <b> Install Elasticsearch, Logstash, and Kibana on your Linux Machine: 
 
-Kali Linux Installation: <br />
-Ensure you have Kali Linux installed on your system. If not, download and install the latest version from the official website.
+- <b> Elasticsearch is a distributed, RESTful search and analytics engine.
 
-Kali Linux Downloads  <br />
-SIEM Tools Installation: Install SIEM tools on Kali Linux: 
+- <b> Logstash is a data processing pipeline that ingests data from multiple sources, transforms it, and sends it to a "stash" such as Elasticsearch.
 
-Elasticsearch: <br />
-Elasticsearch is a distributed, RESTful search and analytics engine.
-
-Logstash: <br />
-Logstash is a data processing pipeline that ingests data from multiple sources, transforms it, and sends it to a "stash" such as Elasticsearch.
-
-Kibana: <br />
-Kibana is an open-source data visualization dashboard for Elasticsearch.
+- <b> Kibana is an open-source data visualization dashboard for Elasticsearch.
 
 <img src="https://i.imgur.com/BfF6EEf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/QW3sA3y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
 3. Configuration
-
 Elasticsearch Configuration <br />
 Configure Elasticsearch settings such as cluster name and node settings.
 
@@ -277,7 +262,7 @@ Implement load balancing mechanisms to distribute incoming log data evenly acros
 
 <br /> 
 
-<h3>18. Disaster Recovery and Backup</h3>
+18. Disaster Recovery and Backup
     
 Backup and Restore  <br />
 Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
@@ -289,9 +274,10 @@ Develop disaster recovery plans and procedures to minimize downtime and restore 
 
 <br /> 
 
-<h2> Conclusion </h2>
+<h3> Conclusion <h3>
 In today's world, cybersecurity is of paramount importance to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events and allow us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up-to-date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
-
+<br /> 
+ 
 <img src="https://i.imgur.com/uGTHzSU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
