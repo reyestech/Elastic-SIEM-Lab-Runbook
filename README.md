@@ -10,12 +10,13 @@ A client requested our security services after experiencing a company-wide secur
 To address this challenge, I created an Elastic SIEM Lab. This lab environment enables me to connect, monitor, test, and analyze various operating systems remotely across multiple network systems. By utilizing these tools, we can guarantee prompt and effective protection for our client's businesses.
 <br />
 
-<h2>Tools Used</h2>
-- <b>Elastic Cloud | SIEM (Security Information and Event Management)</b> 
-- <b>Kibana | Logstash | ELK Stack</b>
-- <b>VMware | VirtualBox </b>
+<h4>Tools Used: </h4>  </b>
 
-<h2>Environments Used </h2>
+- <b>Elastic Cloud | SIEM (Security Information and Event Management) </b>
+- <b>Kibana | Logstash | ELK Stack </b>
+- <b>VMware | VirtualBox  </b>
+
+<h4>Environments Used </h4>
 
 - <b>Windows OS | Active Directory | PowerShell </b> 
 - <b>Kali Linux | Ubuntu Server | Port Forwarding </b> 
@@ -33,7 +34,7 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 
 <br />
 
-<h2>Elastic SIEM: Kali Linux Runbook: </h2> 
+<h1>Elastic SIEM: Kali Linux Runbook: </h1> 
 <img src="https://i.imgur.com/aEr0n4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2> 1. Introduction to SIEM (Security Information and Event Management)</h2>
@@ -45,8 +46,9 @@ SIEM systems analyze log data from various sources to quickly detect and respond
 <br /> 
 
 <h2> 2. Installation </h2>
-Elastic SIEM Tools Installation:  <br />
-- <b> Install Elasticsearch, Logstash, and Kibana on your Linux Machine: 
+
+<h3>Elastic SIEM Tools Installation: </h3>
+Install Elasticsearch, Logstash, and Kibana on your Linux Machine: <br />
 
 - <b> Elasticsearch is a distributed, RESTful search and analytics engine.
 
@@ -59,82 +61,82 @@ Elastic SIEM Tools Installation:  <br />
 <br /> 
 
 <h2>3. Configuration </h2>
-Elasticsearch Configuration
-Configure Elasticsearch settings such as cluster name and node settings.
+
+Elasticsearch Configuration <br /> 
+- <b> Configure Elasticsearch settings such as cluster name and node settings. 
 
 <img src="https://i.imgur.com/27x8h0i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Logstash Configuration <br /> 
-Configure Logstash pipelines to ingest, transform, and output data.
+- <b> Configure Logstash pipelines to ingest, transform, and output data.
 
-<img src="https://i.imgur.com/yNJG955.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/yNJG955.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Kibana Configuration <br />
-Configure Kibana settings such as server host and port.
+- <b> Configure Kibana settings such as server host and port.
 
 <img src="https://i.imgur.com/yPdrSXC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-4. Starting Services
-   
+<h2>4. Starting Services </h2>
+
 Start Elasticsearch <br />
-Start the Elasticsearch service.
+- <b> Start the Elasticsearch service.
 
 <img src="https://i.imgur.com/Iv1MOIs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/kvlDz36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Start Logstash <br />
-Start the Logstash service. 
+- <b> Start the Logstash service. 
 
 <img src="https://i.imgur.com/MuGPmMj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Start Kibana <br />
-Start the Kibana service. 
+- <b> Start the Kibana service. 
 
 <img src="https://i.imgur.com/2G34EAZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-5. Basic Usage
-   
+<h2>5. Basic Usage </h2>
+
 Access Kibana Interface <br />
-Open a web browser and navigate to the Kibana web interface: 
+- <b> Open a web browser and navigate to the Kibana web interface: 
 
 <img src="https://i.imgur.com/trQlRiy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Create Index Patterns <br />
-Define index patterns in Kibana to specify which indices to query. 
+- <b> Define index patterns in Kibana to specify which indices to query. 
 
 Explore Data  <br />
-Use the Discover tab in Kibana to explore and search through log data. 
+- <b> Use the Discover tab in Kibana to explore and search through log data. 
 
 <br /> 
 
-6. Beginner Commands
-   
+<h2>6. Beginner Commands </h2>
+
 Index Management <br />
-Create an index in Elasticsearch. 
+- <b> Create an index in Elasticsearch. 
 
 <img src="https://i.imgur.com/lFp8H3E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Document Indexing <br />
-Index a document in Elasticsearch.
+- <b> Index a document in Elasticsearch.
 
 <img src="https://i.imgur.com/Ecmv7cg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-7. Intermediate Commands
-
+<h2>7. Intermediate Commands </h2>
 Logstash Configuration <br /> 
-Verify Logstash configuration syntax. 
+- <b> Verify Logstash configuration syntax. 
 
 <img src="https://i.imgur.com/YNyPtTy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Pipeline Debugging <br />
-Debug Logstash pipelines by printing output to the console. 
+- <b> Debug Logstash pipelines by printing output to the console. 
 
 <img src="https://i.imgur.com/uHBH6oz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -142,139 +144,139 @@ Debug Logstash pipelines by printing output to the console.
 
 <br /> 
 
-8. Advanced Commands
-   
+<h2>8. Advanced Commands </h2>
+
 Elasticsearch Query DSL <br />
-Perform advanced queries using Elasticsearch Query DSL.
+- <b> Perform advanced queries using Elasticsearch Query DSL.
 
 <img src="https://i.imgur.com/Suo5ZUB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Logstash Plugins <br />
-Install additional Logstash plugins for extended functionality. 
+- <b> Install additional Logstash plugins for extended functionality. 
 
 <img src="https://i.imgur.com/XZX71eq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-9. SOP (Standard Operating Procedures)
-    
+<h2>9. SOP (Standard Operating Procedures) </h2>
+
 Incident Response  <br />
-Develop SOPs for incident response, including steps for detecting, analyzing, and mitigating security incidents using SIEM tools. 
+- <b> Develop SOPs for incident response, including steps for detecting, analyzing, and mitigating security incidents using SIEM tools. 
 
 Regular Maintenance <br />
-Establish SOPs for regular maintenance tasks such as index management, log rotation, and performance optimization. 
+- <b> Establish SOPs for regular maintenance tasks such as index management, log rotation, and performance optimization. 
 
 <img src="https://i.imgur.com/BLMEJR4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-10. Documentation and Reporting
-    
+<h2>10. Documentation and Reporting </h2>
+
 Document Configuration <br />
-Maintain detailed documentation of SIEM configuration settings, including Elasticsearch indices, Logstash pipelines, and Kibana visualizations. 
+- <b> Maintain detailed documentation of SIEM configuration settings, including Elasticsearch indices, Logstash pipelines, and Kibana visualizations. 
 
 Generate Reports <br />
-Use Kibana dashboards and visualizations to generate reports on security incidents, log trends, and system performance.
+- <b> Use Kibana dashboards and visualizations to generate reports on security incidents, log trends, and system performance.
 
 <img src="https://i.imgur.com/u08J4nF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-11. Compliance and Regulatory Considerations
+<h2>11. Compliance and Regulatory Considerations </h2>
 
 Compliance Frameworks <br />
-Ensure SIEM configurations comply with relevant industry regulations, standards, and frameworks such as PCI DSS, HIPAA, and GDPR. 
+- <b> Ensure SIEM configurations comply with relevant industry regulations, standards, and frameworks such as PCI DSS, HIPAA, and GDPR. 
 
 Auditing and Monitoring <br />
-Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering. <br />
+- <b> Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering. <br />
 
 <img src="https://i.imgur.com/DamnXBK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <br />
 
-12. Continuous Learning
+<h2>12. Continuous Learning </h2>
 
 Training and Education <br />
-Invest in continuous training and education to stay updated on the latest SIEM technologies, best practices, and emerging threats. 
+- <b> Invest in continuous training and education to stay updated on the latest SIEM technologies, best practices, and emerging threats. 
 
  <br />
 
-13. Troubleshooting
+<h2>13. Troubleshooting </h2>
 
 Logstash Debugging <br />
-Troubleshoot Logstash configuration errors by examining Logstash logs for errors and warnings.
+- <b> Troubleshoot Logstash configuration errors by examining Logstash logs for errors and warnings.
 
 <img src="https://i.imgur.com/SvtlvgY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Elasticsearch Health Check <br />
-Check the health status of Elasticsearch to identify any issues. 
+- <b> Check the health status of Elasticsearch to identify any issues. 
 
 <img src="https://i.imgur.com/LS9OG40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
  
-14. Integration with Other Tools
+<h2>14. Integration with Other Tools </h2>
 
 Integration with IDS/IPS <br />
-Integrate SIEM with Intrusion Detection Systems (IDS) or Intrusion Prevention Systems (IPS) to correlate security events and alerts. 
+- <b> Integrate SIEM with Intrusion Detection Systems (IDS) or Intrusion Prevention Systems (IPS) to correlate security events and alerts. 
 
 Integration with Vulnerability Scanners <br />
-Integrate SIEM with vulnerability scanners to identify security weaknesses and prioritize remediation efforts. 
+- <b> Integrate SIEM with vulnerability scanners to identify security weaknesses and prioritize remediation efforts. 
 
 <img src="https://i.imgur.com/rN6qkjr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-15. Advanced Techniques
+<h2>15. Advanced Techniques </h2>
 
 Custom Dashboards <br />
-Develop custom dashboards and visualizations in Kibana to monitor specific security metrics and key performance indicators (KPIs). 
+ - <b> Develop custom dashboards and visualizations in Kibana to monitor specific security metrics and key performance indicators (KPIs). 
 
 Machine Learning and Threat Intelligence <br />
-Leverage machine learning algorithms and threat intelligence feeds to enhance threat detection and automate incident response. 
+- <b> Leverage machine learning algorithms and threat intelligence feeds to enhance threat detection and automate incident response. 
 
 <img src="https://i.imgur.com/wqkD1VY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-16. Automation
+<h2>16. Automation </h2>
 
 Automated Alerting <br />
-Configure automated alerting mechanisms in Kibana to notify security teams of potential security incidents or abnormal behavior. 
+- <b> Configure automated alerting mechanisms in Kibana to notify security teams of potential security incidents or abnormal behavior. 
 
 Automated Remediation <br />
-Implement automated response actions to mitigate security incidents, such as blocking malicious IP addresses or quarantining compromised systems.
+- <b> Implement automated response actions to mitigate security incidents, such as blocking malicious IP addresses or quarantining compromised systems.
 
 <img src="https://i.imgur.com/XACVbU6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 <br /> 
 
-17. Scalability and High Availability
-    
+<h2>17. Scalability and High Availability </h2>
+
 Cluster Deployment <br />
-Deploy SIEM components such as Elasticsearch, Logstash, and Kibana to achieve scalability and high availability in a clustered environment. 
+- <b> Deploy SIEM components such as Elasticsearch, Logstash, and Kibana to achieve scalability and high availability in a clustered environment. 
 
 Load Balancing <br />
-Implement load balancing mechanisms to distribute incoming log data evenly across SIEM cluster nodes and ensure optimal performance. 
+- <b> Implement load balancing mechanisms to distribute incoming log data evenly across SIEM cluster nodes and ensure optimal performance. 
 
 <img src="https://i.imgur.com/U8Q5Kzm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
 
-18. Disaster Recovery and Backup
-    
+<h2>18. Disaster Recovery and Backup </h2>
+
 Backup and Restore  <br />
-Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
+- <b> Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
 
 Disaster Recovery Planning <br />
-Develop disaster recovery plans and procedures to minimize downtime and restore SIEM functionality during catastrophic events or security breaches. <br />
+- <b> Develop disaster recovery plans and procedures to minimize downtime and restore SIEM functionality during catastrophic events or security breaches. <br />
 
 <img src="https://i.imgur.com/XVirrRF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 <br /> 
 
-<h3> Conclusion <h3>
+<h1> Conclusion  </h1>
 In today's world, cybersecurity is of paramount importance to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events and allow us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up-to-date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
 <br /> 
  
