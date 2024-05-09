@@ -1,9 +1,11 @@
+<img src="https://i.imgur.com/U8Q5Kzm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 # Elastic Cloud SIEM
 <h1>Hector M. Reyes | SOC Analyst </h1>
 </h1> Group 17: Script K™</h1>
-<h1> Elastic SIEM Lab - Kali Linux Runbook </h1>
 
- ### [Alternative Link | Google Docs | Elastic SIEM: Kali Linux Runbook](https://docs.google.com/document/d/e/2PACX-1vQrPl3AsSPuHLw-uOWLJY1jk-ouFJrAuV_iDuKoA5O-7ppBya0mYVZL_NEC6wx1_aDUZRUfIxDrndbY/pub)
+ ### [Alternative Link | Google Docs | Elastic SIEM](https://docs.google.com/document/d/e/2PACX-1vQrPl3AsSPuHLw-uOWLJY1jk-ouFJrAuV_iDuKoA5O-7ppBya0mYVZL_NEC6wx1_aDUZRUfIxDrndbY/pub)
 
 <h2>Description</h2>
 A client requested our security services after experiencing a company-wide security breach. However, we encountered a significant challenge since our teams were located across different locations in the US. To provide the best possible protection to our client's businesses, we operated across multiple time zones and promptly monitored the various systems. 
@@ -22,6 +24,8 @@ To address this challenge, I created an Elastic SIEM Lab. This lab environment e
 - <b>Kali Linux | Ubuntu Server | Port Forwarding </b> 
 - <b>Windows OS | Active Directory | PowerShell </b>
 
+<img src="https://i.imgur.com/aEr0n4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <h2> Blue Team Solution: SIEM Implementation </h2>
 The Blue Team has implemented a Security Information and Event Management (SIEM) system to ensure the security of their network. The system collects logs from various sources, such as servers, endpoints, and network devices, and detects any unusual or suspicious activities through correlation and alerts. In case of any incident, SIEM automates the incident handling process. Additionally, SIEM integrates threat intelligence to provide real-time updates on known threats, which helps in early detection.
 
@@ -35,7 +39,10 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 <br />
 
 <h1>Elastic SIEM: Kali Linux Runbook: </h1> 
-<img src="https://i.imgur.com/aEr0n4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![JyJ7-qlpUfx7Jf6yCc64GAleL7o3xSnX](https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/f7d69934-f43a-4762-93f5-8e7374bb31bc)
+
+
 
 <h2> 1. Introduction to SIEM (Security Information and Event Management)</h2>
 Purpose <br />
@@ -190,8 +197,6 @@ Compliance Frameworks <br />
 Auditing and Monitoring <br />
 - <b> Implement auditing and monitoring mechanisms to track changes to SIEM configurations and detect unauthorized access or tampering. <br />
 
-<img src="https://i.imgur.com/DamnXBK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
 
 <br />
 
@@ -260,8 +265,6 @@ Cluster Deployment <br />
 Load Balancing <br />
 - <b> Implement load balancing mechanisms to distribute incoming log data evenly across SIEM cluster nodes and ensure optimal performance. 
 
-<img src="https://i.imgur.com/U8Q5Kzm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
 <br /> 
 
 <h2>18. Disaster Recovery and Backup </h2>
@@ -280,6 +283,8 @@ Disaster Recovery Planning <br />
 In today's world, cybersecurity is of paramount importance to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events and allow us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up-to-date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
 <br /> 
  
+![data-flow](https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/3ecf1cc2-7209-41c1-915a-599caf0b0941)
+
 <img src="https://i.imgur.com/uGTHzSU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
