@@ -5,7 +5,7 @@
 <h1>Hector M. Reyes | SOC Analyst </h1>
 </h1> Group 17: Script K™</h1>
 
- ### [Alternative Link | Google Docs | Elastic SIEM](https://docs.google.com/document/d/e/2PACX-1vQrPl3AsSPuHLw-uOWLJY1jk-ouFJrAuV_iDuKoA5O-7ppBya0mYVZL_NEC6wx1_aDUZRUfIxDrndbY/pub)
+ ### [Alternative Link | Google Docs | Elastic SIEM](https://docs.google.com/document/d/1TbSMzlBtGITVFOTaBGqKXjKY0mPG14p5ZWra-Tj8WNk/pub)
 
 <h2>Description</h2>
 A client requested our security services after experiencing a company-wide security breach. However, we encountered a significant challenge since our teams were located across different locations in the US. To provide the best possible protection to our client's businesses, we operated across multiple time zones and promptly monitored the various systems. 
