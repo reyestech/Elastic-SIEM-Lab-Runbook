@@ -1,9 +1,7 @@
 <img src="https://i.imgur.com/U8Q5Kzm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-
 # Elastic Cloud SIEM
 <h1>Hector M. Reyes | SOC Analyst </h1>
-</h1> Group 17: Script K™</h1>
 
  ### [Google Docs Link | Elastic SIEM](https://docs.google.com/document/d/1o0JI4UZWY9FN0mybGW9WmAfAkg7dS2Scoixib0YjzEM/pub)
 
@@ -13,17 +11,15 @@ A client sought our security services after experiencing a company-wide security
 To address this challenge, I created an Elastic SIEM Lab. This lab environment allows me to connect, monitor, test, and analyze various operating systems remotely across multiple network systems. By utilizing these tools, we can ensure prompt and effective protection for our clients' businesses.
 <br />
 
-<h4>Tools Used: </h4>  </b>
+Tools Used
+>- Elastic Cloud | SIEM (Security Information and Event Management)
+>- <b>Kibana | Logstash | ELK Stack 
+>- <b>VMware | VirtualBox 
 
-- <b>Elastic Cloud | SIEM (Security Information and Event Management) </b>
-- <b>Kibana | Logstash | ELK Stack </b>
-- <b>VMware | VirtualBox  </b>
-
-<h4>Environments Used </h4>
-
-- <b>Windows OS | Active Directory | PowerShell </b> 
-- <b>Kali Linux | Ubuntu Server | Port Forwarding </b> 
-- <b>Windows OS | Active Directory | PowerShell </b>
+Environments Used 
+>- Windows OS | Active Directory | PowerShell 
+>- Kali Linux | Ubuntu Server | Port Forwarding 
+>- Windows OS | Active Directory | PowerShell 
 
 <img src="https://i.imgur.com/aEr0n4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -37,15 +33,14 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 3. Customizable Rules: Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
 4. Remote Monitoring: It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
 
-<br />
-
-<h1>Elastic SIEM: Kali Linux Runbook: </h1> 
 
 ![JyJ7-qlpUfx7Jf6yCc64GAleL7o3xSnX](https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/f7d69934-f43a-4762-93f5-8e7374bb31bc)
 
 
+# Elastic SIEM: Runbook: 
 
-<h2> 1. Introduction to SIEM (Security Information and Event Management)</h2>
+# Introduction to SIEM (Security Information and Event Management)
+
 Purpose <br />
 SIEM systems analyze log data from various sources to detect and respond to security incidents quickly. They use advanced analytics to identify anomalous activities and provide a centralized platform for monitoring and managing security events, giving security teams a holistic view of their organization's security posture.
 
@@ -285,8 +280,6 @@ In today's world, cybersecurity is crucial to any organization. That's why SIEMs
 <br /> 
  
 ![data-flow](https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/3ecf1cc2-7209-41c1-915a-599caf0b0941)
-
-<img src="https://i.imgur.com/uGTHzSU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <br />
