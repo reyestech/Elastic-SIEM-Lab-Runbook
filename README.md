@@ -28,10 +28,10 @@ The Blue Team has implemented a Security Information and Event Management (SIEM)
 
 For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and prevents them from escalating. SIEM provides contextual insights by correlating logs, which helps in incident response and provides a better understanding of the situation. Moreover, the customizable rules of SIEM allow Blue Teams to tailor it according to their environment, making it more efficient and effective. Lastly, SIEM operates continuously, providing 24/7 monitoring, ensuring constant vigilance, and a quick response to any potential threat.
 
-1. Early Threat Detection: A SIEM can help detect potential threats and suspicious activities early, allowing for timely intervention and preventing further escalation.
-2. Insights: Crucial for understanding incidents. Correlating logs provides the necessary context for this understanding.
-3. Customizable Rules: Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
-4. Remote Monitoring: It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
+> 1. **Early Threat Detection:** A SIEM can help detect potential threats and suspicious activities early, allowing for timely intervention and preventing further escalation.
+> 2. **Insights:** Crucial for understanding incidents. Correlating logs provides the necessary context for this understanding.
+> 3. **Customizable Rules:** Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
+> 4. **Remote Monitoring:** It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
 
 
 ![JyJ7-qlpUfx7Jf6yCc64GAleL7o3xSnX](https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/f7d69934-f43a-4762-93f5-8e7374bb31bc)
@@ -41,7 +41,7 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 
 # Introduction to SIEM (Security Information and Event Management)
 
-Purpose <br />
+<h2> 1. Purpose </h2>
 SIEM systems analyze log data from various sources to detect and respond to security incidents quickly. They use advanced analytics to identify anomalous activities and provide a centralized platform for monitoring and managing security events, giving security teams a holistic view of their organization's security posture.
 
 <img src="https://i.imgur.com/23mSmyx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
