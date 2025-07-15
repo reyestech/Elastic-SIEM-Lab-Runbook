@@ -2,16 +2,16 @@
   <img src="https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/f7d69934-f43a-4762-93f5-8e7374bb31bc" width="99%" />
 </div>
 
-
 # Runbook: Elastic SIEM 
 #### Hector M. Reyes | SOC Analyst | [Google Docs Link | Elastic SIEM](https://docs.google.com/document/d/1o0JI4UZWY9FN0mybGW9WmAfAkg7dS2Scoixib0YjzEM/pub)
 
 ----
 
-<h2>Description</h2>
-A client sought our security services after experiencing a company-wide security breach. We faced a significant challenge because our teams are located in different parts of the US. To provide the best protection for our clients' businesses, we operate across multiple time zones and monitor various systems promptly.
+## **Intro**
+**Description**
+A client sought our security services after experiencing a company-wide security breach. We faced a significant challenge because our teams are located in different parts of the US. To provide the best protection for our clients' businesses, we operate across multiple time zones and promptly monitor various systems.
 
-To address this challenge, I created an Elastic SIEM Lab. This lab environment allows me to connect, monitor, test, and analyze various operating systems remotely across multiple network systems. By utilizing these tools, we can ensure prompt and effective protection for our clients' businesses.
+To address this challenge, I created an Elastic SIEM Lab. This lab environment enables me to remotely connect, monitor, test, and analyze various operating systems across multiple network systems. By utilizing these tools, we can ensure prompt and effective protection for our clients' businesses.
 <br />
 
 Tools Used
@@ -30,28 +30,32 @@ Environments Used
 
 # Introduction to Elastic SIEM
 ## Blue Team Solution: Implementation ##  
-The Blue Team has implemented a Security Information and Event Management (SIEM) system to ensure the security of their network. The system collects logs from various sources, such as servers, endpoints, and network devices, and detects any unusual or suspicious activities through correlation and alerts. In the event of an incident, SIEM automates the incident handling process. Additionally, SIEM integrates threat intelligence to provide real-time updates on known threats, which helps in early detection.
+The Blue Team has implemented a Security Information and Event Management (SIEM) system to ensure the security of their network. The system collects logs from various sources, such as servers, endpoints, and network devices, and detects any unusual or suspicious activities through correlation and alerts. In the event of an incident, SIEM automates the incident handling process. Additionally, SIEM integrates threat intelligence to provide real-time updates on known threats, facilitating early detection.
 
-For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and prevents them from escalating. SIEM provides contextual insights by correlating logs, which helps in incident response and provides a better understanding of the situation. Moreover, the customizable rules of SIEM allow Blue Teams to tailor it according to their environment, making it more efficient and effective. Lastly, SIEM operates continuously, providing 24/7 monitoring, ensuring constant vigilance, and a quick response to any potential threat.
+For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and prevents them from escalating. SIEM provides contextual insights by correlating logs, which aids in incident response and enhances understanding of the situation. Moreover, the customizable rules of SIEM enable Blue Teams to tailor it to their specific environment, making it more efficient and effective. Lastly, SIEM operates continuously, providing 24/7 monitoring, ensuring constant vigilance and a quick response to any potential threat.
 
-> 1. **Early Threat Detection:** A SIEM can help detect potential threats and suspicious activities early, allowing for timely intervention and preventing further escalation.
-> 2. **Insights:** Crucial for understanding incidents. Correlating logs provides the necessary context for this understanding.
-> 3. **Customizable Rules:** Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
-> 4. **Remote Monitoring:** It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
+1. **Early Threat Detection:**
+   A SIEM can help detect potential threats and suspicious activities early, enabling timely intervention and preventing further escalation.
+3. **Insights:**
+   Crucial for understanding incidents. Correlating logs provides the necessary context for this understanding.
+5. **Customizable Rules:**
+   Blue Teams tailor SIEM rules to their specific environment and threat landscape. It allows them to better adapt to potential threats and ensure a more effective security system.
+7. **Remote Monitoring:**
+   It provides 24/7 remote monitoring for the network, detecting and alerting you to potential threats. It ensures constant vigilance from anywhere on the client's network, keeping it safe and secure.
 
 ----
 
 ## 1. Purpose ##
-SIEM systems analyze log data from various sources to detect and respond to security incidents quickly. They use advanced analytics to identify anomalous activities and provide a centralized platform for monitoring and managing security events, giving security teams a holistic view of their organization's security posture.
+SIEM systems analyze log data from various sources to quickly detect and respond to security incidents. They utilize advanced analytics to identify anomalous activities and provide a centralized platform for monitoring and managing security events, offering security teams a comprehensive view of their organization's security posture.
 <img src="https://github.com/user-attachments/assets/5af11229-f21c-467f-b618-84495b065757" width="80%" />
 
 
 ## 2. Installation ##
 Elastic SIEM Tools Installation:  <br /> 
 Install Elasticsearch, Logstash, and Kibana on your Linux Machine: 
-> - Elasticsearch is a distributed, RESTful search and analytics engine.
-> - Logstash is a data processing pipeline that ingests data from multiple sources, transforms it, and sends it to a "stash" such as Elasticsearch.
-> - Kibana is an open-source data visualization dashboard for Elasticsearch.
+- Elasticsearch is a distributed, RESTful search and analytics engine.
+- Logstash is a data processing pipeline that ingests data from multiple sources, transforms it, and sends it to a "stash" such as Elasticsearch.
+- Kibana is an open-source data visualization dashboard for Elasticsearch.
 <img src="https://i.imgur.com/BfF6EEf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 ## 3. Configuration ##
@@ -184,24 +188,24 @@ Automated Remediation <br />
 
 ## 17. Scalability and High Availability ##
 Cluster Deployment <br />
-> - Deploy SIEM components such as Elasticsearch, Logstash, and Kibana to achieve scalability and high availability in a clustered environment. 
+> - Deploy SIEM components, such as Elasticsearch, Logstash, and Kibana, to achieve scalability and high availability in a clustered environment. 
 
 Load Balancing <br />
 > - Implement load balancing mechanisms to distribute incoming log data evenly across SIEM cluster nodes and ensure optimal performance. 
 
 ## 18. Disaster Recovery and Backup ##
 Backup and Restore  <br />
-> - Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in case of system failures or data loss. 
+> - Establish backup and restore procedures for SIEM data to ensure data integrity and facilitate recovery in the event of system failures or data loss. 
 
 Disaster Recovery Planning <br />
-> - Develop disaster recovery plans and procedures to minimize downtime and restore SIEM functionality during catastrophic events or security breaches. <br />
+> - Develop disaster recovery plans and procedures to minimize downtime and restore SIEM functionality in the event of catastrophic events or security breaches. <br />
 <img src="https://github.com/user-attachments/assets/cbc704c7-6be5-4198-ae3f-9b946100779d" width="50%" />
 <br />
 
 ----
 
-<h1> Conclusion  </h1>
-In today's world, cybersecurity is crucial to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events, allowing us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up to date on security standards are crucial to getting the most out of SIEM and providing a safe and secure work environment. Doing so can improve your organization's security posture, reduce the risk of cyberattacks, and protect your valuable assets. <br />
+## **Conclusion**
+In today's world, cybersecurity is crucial to any organization. That's why SIEMs are an essential tool in any cybersecurity arsenal. SIEMs offer remote visibility into security events, allowing us to stay one step ahead of cyber threats by proactively detecting anomalies in our Networks. Following Security best practices, maintaining proper documentation, and keeping staff up to date on security standards are crucial to maximizing the benefits of SIEM and ensuring a safe and secure work environment. Doing so can enhance your organization's security posture, mitigate the risk of cyberattacks, and safeguard your valuable assets. <br />
 <br /> 
 
 <img src="https://github.com/user-attachments/assets/2842366f-6e2f-4270-8f7f-ab499b115f5f" width="60%" />
