@@ -1,11 +1,12 @@
+
 <div align="center">
   <img src="https://github.com/reyestech/Elastic-SIEM-Lab-Runbook/assets/153461962/f7d69934-f43a-4762-93f5-8e7374bb31bc" width="99%" />
 </div>
 
+---
+
 # Runbook: Elastic SIEM 
 #### Hector M. Reyes | SOC Analyst | [Google Docs Link | Elastic SIEM](https://docs.google.com/document/d/1o0JI4UZWY9FN0mybGW9WmAfAkg7dS2Scoixib0YjzEM/pub)
-
-----
 
 ## **Intro**
 **Description**
@@ -48,7 +49,6 @@ For Blue Teams, SIEM is a crucial tool as it helps detect threats early on and p
 ## 1. Purpose ##
 SIEM systems analyze log data from various sources to quickly detect and respond to security incidents. They utilize advanced analytics to identify anomalous activities and provide a centralized platform for monitoring and managing security events, offering security teams a comprehensive view of their organization's security posture.
 <img src="https://github.com/user-attachments/assets/5af11229-f21c-467f-b618-84495b065757" width="80%" />
-
 
 ## 2. Installation ##
 Elastic SIEM Tools Installation:  <br /> 
